@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height:70vh;
+    background-image: url("images/skincare.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+.navigation{
+    display: flex;
+    width:100%;
+    align-items: center;
+    background-color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+h4{
+    font-size: 30px;
+}
+
+.navigation ul{
+    flex: 1;
+    text-align: center;
+    padding-right: 30px;
+}
+.navigation ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.navigation ul li a{
+    color: #000000;
+    text-decoration:solid;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+}
+.navigation ul li:hover{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #3c3535;
+    
+}
+.navigation ul li a:hover{
+    color: #fff;
+}
+.navigation .account ul li{
+    color: #000000;
+    text-decoration:solid;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid #000000;
+    padding: 4px;
+}
+.navigation .account ul li:hover{
+    background-color: #063388;
+    
+}
+.navigation .account a:hover{
+    color: #fff;
+}
+.textbox{
+    color:#000000;
+    position: absolute;
+    bottom: 8%;
+}
+.textbox h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 5px #000000;
+}
+.textbox h3{
+    font-size: 80px;
+    font-weight: 500;
+}
+.textbox p{
+    font-size: 50px;
+    font-weight: 500;
+}
+.textbox a{
+    color: #000000;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    border: 3px solid #000000;
+    font-size: 20px;   
+}
+.heading{
+    width:100%;
+    background-color: #b4b1b1;
+    padding: 10px;
+}
+.heading h2{
+    text-align: center;
+    font-size: 50px;
+    color: #3c3535;
+    text-transform: uppercase;
+}
+.blog_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+    justify-content: center;
+    width: 100%;
+    
+}
+.blog_box{
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    margin: 20px;
+    align-items: center;
+}
+.blog_img{
+    width:100%;
+    height: auto;
+}
+.blog_img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog_text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog_text span{
+    color:#000000;
+    font-size: 20px;
+}
+.blog_text .blog_title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+.blog_text .blog_title:hover{
+    color:#da1313;
+    transition: all ease 0.3s;
+}
+.blog_text p{
+    color:#000000;
+    font-size: 20px;
+    display:-webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog_text .readmore{
+    color:#000000;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    background-color: #b4b1b1;
+    padding: 8px ;
+    border-radius: 5px;
+    width:150px;
+    text-align: center;
+
+}
+.blog_text .readmore:hover{
+    background-color:#e27c7c;
+    color: #fff;
+}
+.showmore{
+    text-align: center;
+}
+.showmore a{
+    text-align: center;
+    width: 25%;
+    background-color: #b4b1b1;
+    padding: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 40px;
+}
+
+.showmore a:hover{
+    background-color: #e27c7c;
+    color: #fff;
+}
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    padding: 100px 15%;
+    background-color: #3c3535;
+    color:#fff;
+    display: flex;
+    text-align: center;
+}
+.footer .col_2{
+    flex-grow: 2;
+}
+.footer h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col_1 a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #fff;
+}
+.footer .col_3 .social{
+    font-size: 22px;
+    cursor: pointer;
+    margin: 10px;
+}
+.banner{
+    background: #e27c7c;
+    height: 200px;
+}
+.banner h1{
+    text-align: center;
+    font-size: 100px;
+    padding: 35px;
+    color: #fff;
+}
+.skinix{
+    margin: 10px;
+}
+.skinix h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 100px;
+}
